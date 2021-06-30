@@ -582,3 +582,281 @@ footer h2 {
     flex-direction: column;
   }
 }
+
+/* Add Desktop Version */
+
+@media screen and (min-width: 992px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    z-index: 999;
+    overflow: hidden;
+    background-color: #d3d3d3ad;
+  }
+
+  .close-menu-btn {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #3b3e45;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  #current {
+    color: #ec5242;
+    font-weight: bold;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+  }
+
+  .logo img {
+    width: 100%;
+  }
+
+  .home-wrapper {
+    width: 80%;
+    margin: 0 150px;
+  }
+
+  .home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+  }
+
+  .home-section-header {
+    color: #ec5242;
+    line-height: 80px;
+  }
+
+  .home-greeting {
+    font-size: 35px;
+    margin-bottom: -20px;
+  }
+
+  .home-info {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: bold;
+  }
+
+  .home-text {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+
+  .home-text p {
+    margin: 15px;
+    font-size: 26px;
+    color: #272a31;
+  }
+
+  .home-timetable {
+    color: #272a31;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .home-adress {
+    color: #272a31;
+    font-size: 25px;
+  }
+
+  .main-program-ul {
+    height: 600px;
+    padding: 0 100px;
+  }
+
+  .main-program-intro-line {
+    margin-bottom: 70px;
+  }
+
+  .join-global-btn {
+    display: none;
+  }
+
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  .main-program-li {
+    flex-direction: column;
+  }
+
+  .main-program-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .main-content {
+    font-size: 15px;
+    color: #d3d3d3;
+  }
+
+  .main-role p {
+    font-size: 18px;
+    color: #ec5242;
+    margin-right: 20px;
+  }
+
+  .speaker-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 0;
+  }
+
+  .feature-speaker {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 100px;
+    height: 800px;
+  }
+
+  .author-name {
+    font-size: 20px;
+    color: #272a31;
+  }
+
+  .author-word {
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 18px;
+    color: #ec5242;
+  }
+
+  .author-message {
+    color: #272a31;
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .show-more-btn {
+    display: none;
+  }
+
+  /* Add About Page */
+
+  .about-wrapper {
+    width: 80%;
+    margin: 0 150px;
+  }
+
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+  }
+
+  .about-section-header {
+    color: #ec5242;
+    line-height: 80px;
+  }
+
+  .about-greeting {
+    display: none;
+  }
+
+  .about-info {
+    text-transform: uppercase;
+    font-size: 55px;
+    font-weight: bold;
+  }
+
+  .about-text {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about-middle-page-wrapper p {
+    font-size: 22px;
+  }
+
+  .about-middle-page-wrapper h2 {
+    font-size: 26px;
+  }
+
+  .about-text p {
+    margin: 15px;
+    font-size: 26px;
+    color: #272a31;
+  }
+
+  .about-contact p {
+    font-size: 27px;
+  }
+/* stylelint-disable */
+.about-contact a {
+  font-size: 24px;
+}
+/* stylelint-enable */
+
+  .about-images {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 79px;
+  }
+
+  .about-images img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-details h2 {
+    font-size: 50px;
+  }
+
+  .about-details p {
+    margin: 60px 20px;
+    font-size: 23px;
+  }
+
+  .about-details-img {
+    width: 40%;
+  }
+
+  .footer-bottom {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .footer-bottom p {
+    font-size: 22px;
+  }
+
+  .footer-refs li a img {
+    width: 90px;
+  }
+}
