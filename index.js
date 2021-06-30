@@ -22,6 +22,13 @@ function implementFeatures() {
     const featureImage = document.createElement('div');
     featureImage.classList.add('feature-image');
     const featurePic = document.createElement('img');
+    const featureImageGrid = document.createElement('div');
+    const featurePic2 = document.createElement('img');
+    featurePic2.src = './img/grid.jpg';
+    featurePic2.alt = 'Grid image';
+    featureImageGrid.classList.add('grid-img');
+    featureImageGrid.appendChild(featurePic2);
+    featureImage.appendChild(featureImageGrid);
     featurePic.src = feature.featureImage;
     feature.alt = 'Feature Image';
     featureImage.appendChild(featurePic);
@@ -36,7 +43,7 @@ function implementFeatures() {
     articleInfo.appendChild(authorName);
 
     // Add Article Description
-    const authorWord = document.createElement('p');
+    const authorWord = document.createElement('i');
     authorWord.classList.add('author-word');
     authorWord.innerText = feature.featureDescription;
     articleInfo.appendChild(authorWord);

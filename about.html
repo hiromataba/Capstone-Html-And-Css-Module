@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cc global submit</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,27 +13,45 @@
   </head>
   <body>
     <header>
-      <div class="logo"><a href="#"><img src="./img/consul-logo.png" alt=""></a></div>
-      <nav class="navbar">
-        <div class="hamburger">
-          <img src="./img/Hamburger_icon.svg.png" alt="Menu Hamburger" />
-        </div>
-        <ul class="nav-links">
-          <li class="close-menu-btn">
-            <button type="submit" >
-              <span>&times;</span>
-            </button>
-          </li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" id="current">About</a></li>
+      <div class="top-navbar">
+        <ul>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My page</a></li>
+          <li><a href="#"> Logout</a></li>
         </ul>
-      </nav>
+      </div>
+
+      <div class="main-navbar">
+        <div class="logo">
+          <a href="#"><img src="./img/consul-logo.png" alt="" /></a>
+        </div>
+        <nav class="navbar">
+          <div class="hamburger">
+            <img src="./img/Hamburger_icon.svg.png" alt="Menu Hamburger" />
+          </div>
+          <ul class="nav-links">
+            <li class="close-menu-btn">
+              <button type="submit">
+                <span>&times;</span>
+              </button>
+            </li>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html" id="current">About</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Plan</a></li>
+            <li id="consul-lg"><a href="#">Consul</a></li>
+          </ul>
+        </nav>
+      </div>
+
     </header>
     <main>
       <section class="about-section">
         <div class="about-wrapper">
         <div class="about-section-header">
-          <p class="about-greeting">"Hello! Sharing World"</p>
+          <h2 class="about-greeting">"Hello! Sharing World"</h2>
           <h1 class="about-info">Unlocking the potential of those who advance the world</h1>
         </div>
         <div class="about-text">
@@ -71,9 +89,16 @@
       </div>
 
       <div class="about-images">
-        <img src="./img/c1.jpeg" alt=" Author">
-        <img src="./img/Angela-Shante_NoisyClassroom-300x212.jpg" alt=" Author">
-        <img src="./img/c2.jpeg" alt=" Author">
+        <div class="about-images-img">
+          <div class="about-img-pic"><img src="./img/Angela-Shante_NoisyClassroom-300x212.jpg" alt=" Author"></div>
+          <div class="about-img-color"></div>
+          <div class="about-img-text">2015 YESSIR</div>
+        </div>
+        <div class="about-images-img">
+          <div class="about-img-pic"><img src="./img/c2.jpeg" alt=" Author"></div>
+          <div class="about-img-color"></div>
+          <div class="about-img-text">2015 YESSIR</div>
+        </div>
       </div>
       <footer>
         <div class="footer-header">
