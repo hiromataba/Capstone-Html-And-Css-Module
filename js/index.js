@@ -4,7 +4,15 @@ const menuBtn = document.querySelector('.hamburger');
 const menuLinks = document.querySelector('.nav-links');
 const closeMenuBtn = document.querySelector('.close-menu-btn button');
 const myFeatures = data.features;
+const header = document.querySelector('header');
 
+window.addEventListener('scroll', () => {
+  if (window.pageYOffset > 100) {
+     header.classList.add('header-bg');
+  } else {
+    header.classList.remove('header-bg');
+  }
+});
 menuBtn.addEventListener('click', () => {
   menuLinks.style.display = 'flex';
   menuLinks.classList.add('menu-links');

@@ -8,7 +8,7 @@
 
 ## Here is the video link:
 
-- [loom video](https://www.loom.com/share/42a137a9904141cba20e3716cb9d8d5a)
+- [loom video](https://www.loom.com/share/31d2966466bd4b738454dfa27326a46b)
 
 ## Materials required for validation
 

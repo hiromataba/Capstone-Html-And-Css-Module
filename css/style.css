@@ -20,12 +20,17 @@ header {
   top: 0;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
 .top-navbar ul {
   display: none;
   align-items: center;
   justify-content: flex-end;
   height: 40px;
-  background-color: rgba(0, 0, 0, 0.829);
+  background-color: #272a31;
   color: #d3d3d3;
   width: 100%;
   margin: 0;
@@ -33,13 +38,16 @@ header {
 }
 
 #consul-lg {
-  display: flex;
-  align-items: center;
   justify-content: center;
   width: 150px;
   border: 3px solid #ec5242;
   height: 40px;
   margin-left: 30px;
+}
+
+.header-bg {
+  background-color: #fff;
+  z-index: 999;
 }
 
 .logo {
@@ -145,8 +153,6 @@ header {
 }
 
 .home-text {
-  display: flex;
-  align-items: center;
   justify-content: flex-start;
   border: 2px solid white;
   background-color: #d3d3d352;
@@ -168,13 +174,6 @@ header {
 .home-adress {
   color: #272a31;
   font-size: 15px;
-}
-
-.home-icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 29px;
 }
 
 .right-icon {
@@ -213,8 +212,6 @@ header {
 }
 
 .main-program-ul {
-  display: flex;
-  align-items: center;
   justify-content: center;
   padding: 20px;
   flex-direction: column;
@@ -241,8 +238,6 @@ header {
 }
 
 .main-program-li {
-  display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: row;
   margin: 10px 0;
@@ -285,8 +280,6 @@ header {
 }
 
 .join-global-btn {
-  display: flex;
-  align-items: center;
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -315,8 +308,6 @@ header {
 }
 
 .flex {
-  display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
@@ -702,90 +693,6 @@ footer h2 {
 
   .show-more-btn {
     display: none;
-  }
-
-  /* Add About Page */
-
-  .about-wrapper {
-    width: 80%;
-    margin: 0 150px;
-  }
-
-  .about-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 900px;
-  }
-
-  .about-section-header {
-    color: #ec5242;
-    line-height: 80px;
-  }
-
-  .about-greeting {
-    display: none;
-  }
-
-  .about-info {
-    text-transform: uppercase;
-    font-size: 55px;
-    font-weight: bold;
-  }
-
-  .about-text {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .about-middle-page-wrapper p {
-    font-size: 22px;
-  }
-
-  .about-middle-page-wrapper h2 {
-    font-size: 26px;
-  }
-
-  .about-text p {
-    margin: 15px;
-    font-size: 26px;
-    color: #272a31;
-  }
-
-  .about-contact p {
-    font-size: 27px;
-  }
-  /* stylelint-disable */
-  .about-contact a {
-    font-size: 24px;
-  }
-  /* stylelint-enable */
-
-  .about-images {
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 79px;
-  }
-
-  .about-images img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .about-details h2 {
-    font-size: 50px;
-  }
-
-  .about-details p {
-    margin: 60px 20px;
-    font-size: 23px;
-  }
-
-  .about-details-img {
-    width: 40%;
   }
 
   .footer-bottom {

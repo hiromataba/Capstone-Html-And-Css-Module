@@ -56,6 +56,11 @@ header {
   width: 100%;
 }
 
+.header-bg {
+  background-color: #fff;
+  z-index: 999;
+}
+
 .nav-links {
   display: none;
   align-items: center;
@@ -361,12 +366,6 @@ footer h2 {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 321px) {
-  .main-program-li {
-    flex-direction: column;
-  }
-}
-
 /* Add Desktop Version */
 
 @media screen and (min-width: 992px) {
@@ -430,133 +429,6 @@ footer h2 {
 
   .logo img {
     width: 100%;
-  }
-
-  .home-wrapper {
-    width: 80%;
-    margin: 0 150px;
-  }
-
-  .home-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 900px;
-  }
-
-  .home-section-header {
-    color: #ec5242;
-    line-height: 80px;
-  }
-
-  .home-greeting {
-    font-size: 35px;
-    margin-bottom: -20px;
-  }
-
-  .home-info {
-    text-transform: uppercase;
-    font-size: 55px;
-    font-weight: bold;
-  }
-
-  .home-text {
-    width: 70%;
-    margin-bottom: 50px;
-  }
-
-  .home-text p {
-    margin: 15px;
-    font-size: 26px;
-    color: #272a31;
-  }
-
-  .home-timetable {
-    color: #272a31;
-    font-size: 35px;
-    font-weight: bold;
-    margin-top: 15px;
-  }
-
-  .home-adress {
-    color: #272a31;
-    font-size: 25px;
-  }
-
-  .main-program-ul {
-    height: 600px;
-    padding: 0 100px;
-  }
-
-  .main-program-intro-line {
-    margin-bottom: 70px;
-  }
-
-  .join-global-btn {
-    display: none;
-  }
-
-  .main-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 15px;
-  }
-
-  .main-program-li {
-    flex-direction: column;
-  }
-
-  .main-program-img {
-    width: 60px;
-    height: 60px;
-  }
-
-  .main-content {
-    font-size: 15px;
-    color: #d3d3d3;
-  }
-
-  .main-role p {
-    font-size: 18px;
-    color: #ec5242;
-    margin-right: 20px;
-  }
-
-  .speaker-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-    margin-top: 0;
-  }
-
-  .feature-speaker {
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 0 100px;
-    height: 800px;
-  }
-
-  .author-name {
-    font-size: 20px;
-    color: #272a31;
-  }
-
-  .author-word {
-    justify-content: flex-start;
-    width: 100%;
-    font-size: 18px;
-    color: #ec5242;
-  }
-
-  .author-message {
-    color: #272a31;
-    margin: 0;
-    font-size: 17px;
-  }
-
-  .show-more-btn {
-    display: none;
   }
 
   /* Add About Page */
