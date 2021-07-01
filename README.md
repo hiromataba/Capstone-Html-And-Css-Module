@@ -4,7 +4,7 @@
 
 ## live demo
 
-- [live demo](https://hiromataba.github.io/Html-and-Css-Capstone-Project/)
+- [live demo](https://hiromataba.github.io/Capstone-Html-And-Css-Module/)
 
 ## Here is the video link:
 
