@@ -12,12 +12,12 @@
 
 ## Materials required for validation
 
+- follow this link :
+  [linters configuration](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
+
 ## Description Of the project
 
 - The purpose of our website is to increase our clients' topline by optimizing their growth strategies, marketing, pricing and sales. 
-
-- follow this link :
-  [linters configuration](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
 ## Built With
 
@@ -30,8 +30,7 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1. Clone the Repo or Download the Zip file
-2. Run the live server or simply open index.html with your browser.
+- Copy this link repo_link and type git clone repo_link in your terminal to get and run this project locally
 
 ## Authors
 

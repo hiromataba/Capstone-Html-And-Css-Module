@@ -70,7 +70,7 @@ header {
 .menu-links {
   display: none;
   position: fixed;
-  background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgb(24, 23, 23)), url('./img/img.jpg');
+  background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgb(24, 23, 23)), url('../img/img.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,7 +122,7 @@ header {
   padding-left: 15px;
   padding-top: 100px;
   overflow: hidden;
-  background-image: url('./img/homesection.jpg');
+  background-image: url('../img/homesection.jpg');
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@ header {
   padding: 20px;
   flex-direction: column;
   background-color: #272a31;
-  background-image: url('./img/mission.png');
+  background-image: url('../img/mission.png');
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
