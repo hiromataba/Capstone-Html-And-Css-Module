@@ -30,7 +30,8 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1. Copy this link [git@github.com:hiromataba/Capstone-Html-And-Css-Module.git] and type git clone [git@github.com:hiromataba/Capstone-Html-And-Css-Module.git] in your terminal to get and run this project locally
+1. Copy [This link](git@github.com:hiromataba/Capstone-Html-And-Css-Module.git) and type git clone [This link](git@github.com:hiromataba/Capstone-Html-And-Css-Module.git) in your terminal to get and run this project locally
+
 2. Run the live server or simply open index.html with your browser.
 
 ## Authors
@@ -45,9 +46,9 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
- # Mobile Preview:
+ # Desktop Preview:
 
-![capstone](https://user-images.githubusercontent.com/75126481/123948021-4ecdbc00-d9a1-11eb-86f4-8c28a21fff46.png)
+![desktopcapstone](https://user-images.githubusercontent.com/75126481/124115912-a554fc00-da6e-11eb-824d-472149c0e8e2.png)
 
 ## Show your support
 
