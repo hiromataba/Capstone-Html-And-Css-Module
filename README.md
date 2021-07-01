@@ -12,6 +12,10 @@
 
 ## Materials required for validation
 
+## Description Of the project
+
+- The purpose of our website is to increase our clients' topline by optimizing their growth strategies, marketing, pricing and sales. 
+
 - follow this link :
   [linters configuration](https://github.com/microverseinc/linters-config/tree/master/html-css-js)
 
