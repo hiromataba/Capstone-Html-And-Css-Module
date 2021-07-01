@@ -122,18 +122,6 @@ header {
   font-size: 25px;
 }
 
-footer {
-  background-color: #414246;
-  height: 150px;
-  text-align: center;
-}
-
-footer h2 {
-  color: #d3d3d3;
-  padding-top: 10px;
-  font-size: 22px;
-}
-
 /* About page mobile */
 
 .about-section {
@@ -328,42 +316,25 @@ footer h2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  background-color: #272a31;
+  height: 120px;
 }
 
 .footer-bottom-img {
   width: 150px;
+  margin-right: 15px;
 }
 
 .footer-bottom-img img {
   width: 100%;
   margin-left: 10px;
+  margin-right: 20px;
 }
 
 .footer-bottom p {
-  color: #414246;
+  color: #d3d3d3;
   font-size: 14px;
   margin: 0 10px;
-}
-
-.footer-refs {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #414246;
-  list-style: none;
-  padding: 10px;
-  line-height: 40px;
-}
-
-.footer-refs li a img {
-  width: 60px;
-}
-
-.footer-refs li a {
-  margin-right: 10px;
 }
 
 /* Add Desktop Version */
