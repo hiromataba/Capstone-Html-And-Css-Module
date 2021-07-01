@@ -425,8 +425,6 @@ footer h2 {
 }
 
 .footer-bottom {
-  display: flex;
-  align-items: center;
   justify-content: space-around;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -448,8 +446,6 @@ footer h2 {
 }
 
 .footer-refs {
-  display: flex;
-  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #414246;
@@ -488,8 +484,6 @@ footer h2 {
   }
 
   .main-navbar {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
     background-color: white;
   }
