@@ -129,7 +129,7 @@ header {
   padding-left: 15px;
   padding-top: 100px;
   overflow: hidden;
-  background-image: url('./img/homesection.jpg');
+  background-image: url('../img/bg.jpg');
   background-position: top right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -414,6 +414,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 900px;
+    background-image: url('../img/bg.jpg');
   }
 
   .about-section-header {
@@ -440,7 +441,7 @@ header {
 
   .about-info {
     text-transform: uppercase;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
   }
 
@@ -451,7 +452,7 @@ header {
   }
 
   .about-middle-page-wrapper p {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .about-middle-page-wrapper h2 {
@@ -460,16 +461,16 @@ header {
 
   .about-text p {
     margin: 15px;
-    font-size: 26px;
+    font-size: 22px;
     color: #272a31;
   }
 
   .about-contact p {
-    font-size: 27px;
+    font-size: 22px;
   }
   /* stylelint-disable */
   .about-contact a {
-    font-size: 24px;
+    font-size: 20px;
   }
   /* stylelint-enable */
 
@@ -488,12 +489,12 @@ header {
   }
 
   .about-details h2 {
-    font-size: 45px;
+    font-size: 31px;
   }
 
   .about-details p {
     margin: 60px 20px;
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .about-details-img {
@@ -506,7 +507,7 @@ header {
   }
 
   .footer-bottom p {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .footer-refs li a img {

@@ -554,7 +554,7 @@ footer h2 {
 
   .home-info {
     text-transform: uppercase;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
   }
 
@@ -565,7 +565,7 @@ footer h2 {
 
   .home-text p {
     margin: 15px;
-    font-size: 26px;
+    font-size: 23px;
     color: #272a31;
   }
 
@@ -578,7 +578,7 @@ footer h2 {
 
   .home-adress {
     color: #272a31;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .main-program-ul {
@@ -696,7 +696,7 @@ footer h2 {
   }
 
   .footer-bottom p {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .footer-refs li a img {

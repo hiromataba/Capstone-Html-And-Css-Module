@@ -38,7 +38,7 @@ function implementFeatures() {
     featureImageGrid.appendChild(featurePic2);
     featureImage.appendChild(featureImageGrid);
     featurePic.src = feature.featureImage;
-    feature.alt = 'Feature Image';
+    featurePic.alt = 'Feature Image';
     featureImage.appendChild(featurePic);
     featureArticle.appendChild(featureImage);
 
