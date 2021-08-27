@@ -2,6 +2,10 @@
 
 # Capstone-Html-And-Css-Module
 
+# Desktop Preview:
+
+![desktopcapstone](https://user-images.githubusercontent.com/75126481/124115912-a554fc00-da6e-11eb-824d-472149c0e8e2.png)
+
 ## live demo
 
 - [live demo](https://hiromataba.github.io/Capstone-Html-And-Css-Module/)
@@ -44,10 +48,6 @@ To get a local copy up and running follow these simple example steps.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
- # Desktop Preview:
-
-![desktopcapstone](https://user-images.githubusercontent.com/75126481/124115912-a554fc00-da6e-11eb-824d-472149c0e8e2.png)
 
 ## Show your support
 
